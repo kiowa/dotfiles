@@ -45,10 +45,10 @@ set splitbelow
 set splitright
 
 "split navigations
-nnoremap <C-J> <C-W>j
-nnoremap <C-K> <C-W>k
-nnoremap <C-L> <C-W>l
-nnoremap <C-H> <C-W>h
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 let test#python#runner = 'djangotest'
 let g:jedi#popup_select_first = 0

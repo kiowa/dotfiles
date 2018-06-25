@@ -173,7 +173,7 @@ exec_always --no-startup-id feh --bg-scale /home/kiowa/pics/nebula.jpg
 exec --no-startup-id dunst
 
 # Keyboard switcher
-exec --no-startup-id setxkbmap -option grp:switch,grp:shifts_toggle,grp_led:scroll us,no
+exec --no-startup-id setxkbmap -option grp:shifts_toggle,ctrl:nocaps us,no
 
 # Grab screenshots
 exec --no-startup-id flameshot
