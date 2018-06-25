@@ -26,3 +26,4 @@ export EDITOR=vim
 export VISUAL=vim
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 export WORKON_HOME=$HOME/.local/share/virtualenvs
+eval $(ssh-agent)
