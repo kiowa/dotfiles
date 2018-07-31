@@ -54,7 +54,6 @@ let test#python#runner = 'djangotest'
 let g:jedi#popup_select_first = 0
 
 set relativenumber
-set undofile
 
 nnoremap <C-p> :Files<cr>
 
