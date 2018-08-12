@@ -42,6 +42,7 @@ bindsym $mod+d exec albert show
 #
 # start chromium
 bindsym $mod+Shift+Return exec chromium
+# bindsym $mod+Shift+Return exec vivaldi-stable
 
 # change focus
 bindsym $mod+j focus left
