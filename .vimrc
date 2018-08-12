@@ -32,6 +32,7 @@ Plugin 'posva/vim-vue'
 Plugin 'vim-scripts/csv.vim'
 Plugin 'Valloric/MatchTagAlways'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'tell-k/vim-autopep8'
 " Plugin 'janko-m/vim-test'
 
 " All of your Plugins must be added before the following line
@@ -56,6 +57,7 @@ let g:jedi#popup_select_first = 0
 set relativenumber
 
 nnoremap <C-p> :Files<cr>
+nnoremap <C-t> :Tags<cr>
 
 nnoremap <Leader>t :TestNearest<cr>
 
@@ -112,6 +114,15 @@ set list listchars=tab:»·,trail:·,nbsp:·
 
 " Switch between the last two files
 nnoremap <Leader><Leader> <C-^>
+"
+" Number of spaces that a pre-existing tab is equal to.
+au BufRead,BufNewFile *js set tabstop=4
+
+"spaces for indents
+au BufRead,BufNewFile *.js set shiftwidth=4
+au BufRead,BufNewFile *.js set expandtab
+au BufRead,BufNewFile *.js set softtabstop=4
+
 
 "------------Start Python PEP 8 stuff----------------
 " Number of spaces that a pre-existing tab is equal to.
